@@ -14,7 +14,7 @@
 ##                               BUILD ARGS                                   ##
 ################################################################################
 # This build arg allows the specification of a custom Golang image.
-ARG GOLANG_IMAGE=golang:1.20.1-buster
+ARG GOLANG_IMAGE=golang:1.20.3-buster
 
 # The distroless image on which the CPI manager image is built.
 #
